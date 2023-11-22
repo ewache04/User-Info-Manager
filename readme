@@ -1,0 +1,29 @@
+**Sorting Data using json.dump() and json.load()**
+
+**Author:** Jeremiah E. Ochepo
+
+**Description:**
+This Python script serves as a simple data management tool. Users can add, print, and quit the program. User information is collected, stored, and retrieved using the `json.dump()` and `json.load()` functions.
+
+**Usage:**
+1. Run the script.
+2. Choose one of the following options:
+   - **Add:** Add user information (First Name, Middle Name, Last Name).
+   - **Print:** View the stored user information.
+   - **Quit:** End the program.
+3. Follow the prompts for each selected option.
+
+**Data Storage:**
+User information is stored in a JSON file (`user_info.json`). Each user's data is formatted as a dictionary within a list.
+
+**Example User Data:**
+```json
+[
+    {"User ID#": "Guest1", "First Name": "John", "Middle Name": "Doe", "Last Name": "Smith"},
+    {"User ID#": "Guest2", "First Name": "Jane", "Middle Name": "Lee", "Last Name": "Johnson"}
+]
+```
+
+**Note:** Ensure that the script and the `user_info.json` file are in the same directory.
+
+**Last Updated Date:** 9/29/19
